@@ -1,0 +1,55 @@
+body{background-image: linear-gradient(to right,rgb(251, 251, 251),rgba(175, 5, 175, 0.521));
+}
+
+header{
+height: 200px;
+width: 1200px;
+margin: auto;
+background-image: linear-gradient(to right,rgb(251, 251, 251),rgba(83, 3, 83, 0.521));
+line-height: 200px;
+text-align: center;
+border-radius: 20px 20px;
+box-shadow: 2px 2px rgba(0, 0, 0, 0.319);
+
+}
+
+.conteiner{
+width: 600px;
+height: 400px;
+background-color: aliceblue;
+margin: auto;
+position:relative;
+top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px 15px;
+box-shadow: 5px 5px  vrgba(64, 16, 112, 0.462);
+}
+
+.formulário{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input,label,button{
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+}
+
+input:hover{
+    background-color: brown;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: brown;
+}
+

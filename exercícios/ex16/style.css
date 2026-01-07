@@ -1,0 +1,8 @@
+@charset utf-8;
+ body{
+    background-color: rgba(162, 198, 234, 0.837);
+    color: brown;
+ }
+p{
+    background-color:hwb(180 7% 55% / 0.775);
+}

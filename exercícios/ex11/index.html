@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+    <link rel="shortcut icon" href="favicon.png.ico" type="favicon.png.ico">
+</head>
+<body>
+   <h1>Imagens dinamicas</h1>
+   <p>Tente abrir esse site em outros dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p> 
+
+   <picture>
+    <source media="(max-width:750px )" srcset="imagens/foto-P.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/foto-M.png" type="image/png">
+    <img src="imagens/foto-G.png" alt="imagem flexível">
+   </picture>
+   
+   <h1>Inserindo audios</h1>
+   <p>vamos ver como se coloca audio em Html</p>
+   <audio src="Metallica_ Nothing Else Matters (Official Music Video).mp3"controls autoplay></audio><br>
+
+   <audio preload="metadata"controls autoplay>
+    <source src="Metallica_ Nothing Else Matters (Official Music Video).mp3" type="audio/mpge">
+    <source src="Metallica_ Nothing Else Matters (Official Music Video).mp3" type="audio/ogg">
+    <source src="" type="audio/wav">
+
+   </audio>
+
+</body>
+</html>
